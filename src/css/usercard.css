@@ -1,0 +1,35 @@
+.user-card {
+  margin: 20px;
+  margin-left: 50px;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #e7dddd;
+  background: white;
+  box-shadow: 9px 8px 15px 0px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-details {
+  text-align: center;
+  padding: 15px;
+}
+
+.user-image {
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.user-text {
+  height: 115px;
+  text-align: justify;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.user-text::-webkit-scrollbar {
+  width: 0 !important;
+}
