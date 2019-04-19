@@ -17,9 +17,15 @@ class UserCard extends Component {
               <b>{this.props.user.first_name} </b>
               <b>{this.props.user.last_name}</b>
             </span>
-            <p>{this.props.user.email}</p>
-            <p>{this.props.user.gender}</p>
-            <p className="user-text">{this.props.user.description}</p>
+            <div>
+              <b>{this.props.user.email}</b>
+            </div>
+            <div>
+              <b>{this.props.user.gender}</b>
+            </div>
+            <div className="text-div">
+              <p className="user-text">{this.props.user.description}</p>
+            </div>
           </div>
         </div>
       </React.Fragment>

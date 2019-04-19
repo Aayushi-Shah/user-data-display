@@ -5,11 +5,19 @@
   height: 350px;
   border: 1px solid #e7dddd;
   background: white;
-  box-shadow: 9px 8px 15px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: height 0.3s, box-shadow 0.3s;
+}
+
+.user-card:hover,
+.user-card:focus,
+.user-card:active {
+  height: 410px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.4);
 }
 
 .body-details {
@@ -30,6 +38,13 @@
   text-overflow: ellipsis;
 }
 
+.text-div {
+  margin-top: 10px;
+}
 .user-text::-webkit-scrollbar {
   width: 0 !important;
+}
+
+body {
+  background: #e4e0e0 !important;
 }
